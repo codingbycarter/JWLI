@@ -1,0 +1,319 @@
+*{
+    box-sizing: border-box;
+    /* margin: 2%; */
+    margin-top: 0%;
+}
+header{
+    height: 50px;
+    width: 100%;
+    /* border: 5px solid lawngreen; */
+    /* background-color: aqua; */
+}
+.upTop li a{
+    height:50px;
+    width: 5%;
+    /* padding-left:0%; */
+    padding-right: 15%;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    float: left;
+}
+.upTop li{
+    list-style: none;
+   
+}
+/* #chineseLetters{
+             display: inline-block;
+} */
+
+/* .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+} */
+main{
+    background-color: rgba(241,243,245,255);
+}
+/* Padding on nav bar  */
+main section h2{
+        padding-left: 9%;
+        padding-right: 0%;
+}
+/* * big box to keep 3 elements in main  */ 
+
+.Big{
+    margin: 2%;
+    margin-bottom: 0%;
+    height: 400px;
+    width: 100%;
+    display: inline-block;
+   }
+.Logo{
+    height: 200px;
+    width: 50%;
+    padding-left: 1%;
+    /* float: left; */
+    /* margin-top: 5%; */
+    /* padding-left: 20%; */
+    /* background-color: yellow; */
+}
+.allPs{
+    color: black;
+    margin-left: 12%;
+    margin-right: 0;
+    /* width: 50%; */
+    /* padding-bottom: 2%; */
+    /* padding-left: 10%;
+    padding-right: 10%; */
+}
+/* Text in main */
+.Text{
+    text-align: center;
+}
+/* image section */
+.Women{
+    height: 300px;
+    width: 30%;
+    /* background-color: yellow; */
+    float: right;
+    /* padding-top: 0%; */
+    margin-right: 15%;
+}
+div{
+    /* height:100px;
+    width:330px; */
+    /* margin-left: 8.7%; */
+    float: left;
+}
+.submitButton{
+    /* margin-left: 8.7%; */
+    float: left;
+   text-decoration: none;
+    list-style: none;
+}
+/* .yellowSquare */
+
+.submitColor{
+    background-color: rgb(178, 177, 255);
+    color: white;
+    float: left;
+    padding-left: 5%;
+}
+
+.makeLife{
+    background-color: white;
+    /* padding-top: 5%;
+    padding-right: 40%;
+    padding-left: 10%;
+    margin-right: 2%; */
+    height: 400px;
+    width: 100%;
+    /* border: 5px solid yellow; */
+    
+}
+.topEmailbutton{
+    padding-left: 14%;
+}
+.secondParagraph{
+     text-align: center;
+     font-size: 30px;
+     font-weight: bold;
+}
+
+aside > nav > section{
+    height: 100px;
+    width: 50%;
+    /* float: left; */
+    /* margin-right: 50%; */
+    /* padding: 5%; */
+/* padding-bottom: 20%; */
+    /* border: 5px solid yellow; */
+    /* background-color: lightsteelblue; */
+    /* padding-right: 20%; */
+}
+
+.history{
+        background-color: rgb(241, 243, 245);
+    color: black;
+}
+.herStory{
+   width: 50%;
+   float: left;
+}
+/* .imageStory{
+    
+} */
+.test{
+    float: left;
+    /* border: 5px solid yellow; */
+    height: 200px;
+    width: 250px;
+    margin-left: 23%;
+    margin-top: 1.3%;
+}
+.me{
+    background-color: pink;
+    height: 5px;
+    width:80px;
+}
+.boldLetters{
+    font-weight: 700px;
+}
+.smallFont{
+        color: lightgray;
+        width:50%;
+        padding-left: 20%;
+        margin-left: 12%;
+        text-align: center;
+}
+.middlePart{
+    padding-bottom: 12%;
+        border:  1px solid lightgrey;
+}
+.founderImage{
+        height:200px;
+        float: left;
+}
+.herImage{
+    height: 50px;
+    width: 50%;
+        float: right;
+        /* padding-bottom: 50%; */
+}
+
+.test{
+    float: left;
+    /* border: 5px solid yellow; */
+    height: 200px;
+    width: 250px;
+    margin-left: 23%;
+    margin-top: 1.3%;
+}
+.founderCorner{
+height: 300px;
+width: 50%;
+margin-left: 5%;
+/* margin: 0px 3% 0px 3%; */
+padding-top: 5%;
+clear: both;
+}
+/* .familyOfFish{
+    float: left;
+} */
+.smallSignUp{
+    padding-left: 5%;
+}
+.linedUnder{
+    font-weight: 100;
+    text-decoration: underline;
+    padding-bottom: 1%;
+}
+footer section div span{
+    padding-left: 20%;
+}
+/* .founderCorner{
+        height:100px;
+        width: 100%S;
+} */
+.bottomFooter{
+    /* padding-left: 5%; */
+    height: 40px;
+    width: 100%;
+    background-color: rgb(184, 197, 208);
+    color: white;
+}
+footer{
+    height: 255px;
+    width: 100%;
+    background-color:rgb(143, 156, 163);
+}
+.bottomSpan{
+      padding-top: 4%;  
+      text-align: center;
+      color: white;
+      padding-left: 2%;
+      padding-bottom: 5%;
+}
+.whiteLine{
+    background-color: white;
+    height: 1px;
+    width:90%;
+    margin:3%;
+    
+}
+footer li{
+    text-align: center;
+text-decoration: none;
+    list-style: none;
+    color: white;
+    /* padding-left: 5%; */
+}
+.footerRows{
+    float: left;
+}
+@media all and (max-width: 511px){
+    .Logo{
+        width: 100%;
+    }
+.makeLife, .history, .founderCorner, .familyFoundation{
+    display: none;
+}
+    header, footer{
+       display: none;
+    }
+    main{
+        width: 100%;
+    }
+    .Women{
+        display: none;
+    }
+    .smallFont{
+        display: none;
+    }
+    .history{
+      padding-left: 9%;
+      padding-right: 0%;
+}
+  .imageStory{
+      padding-left: 50%;
+      padding-right: 0%;
+}
+  } 
+@media all and (max-width: 889px){
+    header{
+        width: 100%;
+    }
+    main{
+        width: 100%;
+    }
+    .Women{
+        display: none;
+    }
+    .smallFont{
+        display: none;
+    }
+    .history{
+      padding-left: 9%;
+      padding-right: 0%;
+}
+  .imageStory{
+      padding-left: 50%;
+      padding-right: 0%;
+}
+  } 
+@media all and (max-width: 943px){
+   .smallFont{
+          display: none;
+      }
+      .history{
+        padding-left: 9%;
+        padding-right: 0%;
+}
+    .imageStory{
+        padding-left: 50%;
+        padding-right: 0%;
+}
+    } 
+    
+  
